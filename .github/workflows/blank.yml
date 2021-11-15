@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: 安装node环境
-        run: apt-get install nodejs
+        run: sudo apt-get install nodejs
       
       - uses: actions/checkout@v2
 
